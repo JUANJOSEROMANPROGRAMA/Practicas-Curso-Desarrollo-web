@@ -1,0 +1,31 @@
+{
+  "name": "dia1",
+  "version": "1.0.0",
+  "description": "Practica#1",
+  "keywords": [
+    "SAAS",
+    "NPM",
+    "GULP",
+    "GIT",
+    "GITHUB"
+  ],
+  "homepage": "https://github.com/JUANJOSEROMANPROGRAMA/Practicas-Curso-Desarrollo-web#readme",
+  "bugs": {
+    "url": "https://github.com/JUANJOSEROMANPROGRAMA/Practicas-Curso-Desarrollo-web/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUANJOSEROMANPROGRAMA/Practicas-Curso-Desarrollo-web.git"
+  },
+  "license": "ISC",
+  "author": "Juan Jose Roman Bernal @JUANJOSEROMANPROGRAMA",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass src/scss:build/css"
+  },
+  "devDependencies": {
+    "sass": "^1.107.1"
+  }
+}
