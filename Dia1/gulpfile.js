@@ -24,9 +24,18 @@ export function dev() {
 
 
     watch('src/scss/**/*.scss', css)
-    
+
     /* "dev":"gulp dev" */
 
 
 
+}
+
+
+export function imprimirSaludo(done) {
+
+    console.log('hello world')
+
+
+    done();
 }
