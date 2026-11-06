@@ -19,13 +19,17 @@
   },
   "license": "ISC",
   "author": "Juan Jose Roman Bernal @JUANJOSEROMANPROGRAMA",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css",
+    "hola": "gulp hola",
+    "css": "gulp css"
   },
   "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
     "sass": "^1.107.1"
   }
 }
