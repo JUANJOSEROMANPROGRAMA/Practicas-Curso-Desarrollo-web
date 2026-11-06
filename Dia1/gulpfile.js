@@ -1,12 +1,12 @@
 import * as dartSass from 'sass'
 import gulpSass from 'gulp-sass'
 
-import { src, dest } from 'gulp'
+import { src, dest, watch } from 'gulp'
 
 
 const sass = gulpSass(dartSass)
 
-
+/* funcion para crear la carpeta build y el archivo de app.css desde gulpfile */
 export function css(done) {
 
     src('src/scss/app.scss')
@@ -18,11 +18,15 @@ export function css(done) {
 
 
 
+/* habilitar el modo watch */
+export function dev() {
 
 
-export function hola(done) {
 
-    console.log('hola desde gulpfile')
+    watch('src/scss/**/*.scss', css)
+    
+    /* "dev":"gulp dev" */
 
-    done()
+
+
 }
